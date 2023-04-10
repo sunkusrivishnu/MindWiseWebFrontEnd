@@ -1,0 +1,143 @@
+.Plistmaincontainer{
+    position: fixed;
+    top: 140px;
+    left: 255px;
+    height: 100%;
+    width: 100%;
+    background-color: #16202A;
+}
+
+.user1{
+    position:absolute;
+    top: 45px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.user1:hover {
+    background-color: #808080;
+}
+
+.user2{
+    position:absolute;
+    top: 110px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.user2:hover {
+    background-color: #808080;
+}
+
+.user3{
+    position:absolute;
+    top: 175px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.user3:hover {
+    background-color: #808080;
+}
+
+.user4{
+    position:absolute;
+    top: 240px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.user4:hover {
+    background-color: #808080;
+}
+
+.user5{
+    position:absolute;
+    top: 305px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.user5:hover {
+    background-color: #808080;
+}
+
+.user6{
+    position:absolute;
+    top: 370px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.user6:hover {
+    background-color: #808080;
+}
+
+.Lastseentext{
+    position: absolute;
+    top: 15px;
+    left: 450px;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: lighter;
+}

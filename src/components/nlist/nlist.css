@@ -1,0 +1,134 @@
+.Nlistmaincontainer{
+    position: fixed;
+    top: 140px;
+    left: 255px;
+    height: 100%;
+    width: 100%;
+    background-color: #16202A;
+}
+
+.n1{
+    position:absolute;
+    top: 45px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.n1:hover {
+    background-color: #808080;
+}
+
+.n2{
+    position:absolute;
+    top: 110px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.n2:hover {
+    background-color: #808080;
+}
+
+.n3{
+    position:absolute;
+    top: 175px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.n3:hover {
+    background-color: #808080;
+}
+
+.n4{
+    position:absolute;
+    top: 240px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.n4:hover {
+    background-color: #808080;
+}
+
+.n5{
+    position:absolute;
+    top: 305px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.n5:hover {
+    background-color: #808080;
+}
+
+.n6{
+    position:absolute;
+    top: 370px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.n6:hover {
+    background-color: #808080;
+}
