@@ -1,0 +1,156 @@
+.pbarmaincontainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 255px;
+    background-color: #16202A;
+    /* border-radius: 20px; */
+}
+
+.PImage{
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    height: 100px;
+    width: 100px;
+}
+
+.pline1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #808080;
+    top: 190px; /* change this value to adjust the line position */
+}
+
+
+.pb1{
+    position:absolute;
+    top: 215px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 168px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.pb2{
+    position:absolute;
+    top: 260px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 168px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.pb3{
+    position:absolute;
+    top: 305px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 10px;
+    padding-right: 10px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.pb4{
+    position:absolute;
+    top: 350px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #2EEE9D;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 168px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.pb5{
+    position:absolute;
+    top: 575px;
+    left:55px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 140px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.pline2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #808080;
+    top: 405px; /* change this value to adjust the line position */
+}
+
+
+.pb1:hover {
+    background-color: #808080;
+}
+
+.pb2:hover {
+    background-color: #808080;
+}
+
+.pb3:hover {
+    background-color: #808080;
+}
+
+.pb4:hover {
+    background-color: #808080;
+}
+
+.pb5:hover {
+    background-color: #808080;
+}
+
+.icon{
+    display: inline-block;
+    /* float:left; */
+    margin-right: 10px;
+    line-height: 1;
+}
+
+.pline3{
+    position: absolute;
+    left: 254px;
+    right: 0; 
+    height: 100%;
+    background-color: #808080;
+    top: 0px; /* change this value to adjust the line position */
+    rotate: 180deg;
+    width: 1px;
+}
