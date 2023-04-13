@@ -1,6 +1,7 @@
 import Login from "./pages/login/Login"
 import Patientslist from "./pages/patientslist/Patientslist";
 import Notifications from "./pages/notifications/Notifications";
+import Tasklist from "./pages/tasklist/Tasklist";
 
 function App() 
 {
@@ -9,7 +10,8 @@ function App()
     <>
       {/* <Patientslist/> */}
       {/* <Notifications/> */}
-      <Login/>
+      {/* <Login/> */}
+      <Tasklist/>
     </>
   );
 }

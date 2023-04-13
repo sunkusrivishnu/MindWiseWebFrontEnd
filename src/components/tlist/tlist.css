@@ -1,0 +1,142 @@
+.Tlistmaincontainer {
+    position: fixed;
+    top: 140px;
+    left: 255px;
+    height: 100%;
+    width: 100%;
+    background-color: #16202A;
+}
+
+.task1 {
+    position:absolute;
+    top: 45px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.task1:hover {
+    background-color: #808080;
+}
+
+.task2{
+    position:absolute;
+    top: 110px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.task2:hover {
+    background-color: #808080;
+}
+
+.task3{
+    position:absolute;
+    top: 175px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.task3:hover {
+    background-color: #808080;
+}
+
+.task4{
+    position:absolute;
+    top: 240px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.task4:hover {
+    background-color: #808080;
+}
+
+.task5{
+    position:absolute;
+    top: 305px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.task5:hover {
+    background-color: #808080;
+}
+
+.task6{
+    position:absolute;
+    top: 370px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    height: 45px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.task6:hover {
+    background-color: #808080;
+}
+
+.CheckBox {
+    position: absolute;
+    top: 12px;
+    left: 500px;
+    border: none;
+    outline: none;
+}
