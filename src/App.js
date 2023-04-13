@@ -7,8 +7,9 @@ function App()
 
   return (
     <>
-      <Patientslist/>
+      {/* <Patientslist/> */}
       {/* <Notifications/> */}
+      <Login/>
     </>
   );
 }
