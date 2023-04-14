@@ -2,15 +2,15 @@ import './pagebarnotifi.css';
 
 export default function Pagebarnotifi() {
     return (
-        <div className="Pbarmaincontainer">
+        <div className="NPbarmaincontainer">
     
-            <div className="PresentUsage">
-                <span className="Pre">
+            <div className="NPresentUsage">
+                <span className="NPre">
                     Notifications
                 </span>
             </div>
 
-            <div className="divider">
+            <div className="Ndivider">
 
             </div>
 

@@ -1,4 +1,4 @@
-.Pbarmaincontainer {
+.NPbarmaincontainer {
     position: fixed;
     top: 75px;
     left: 255px;
@@ -7,7 +7,7 @@
     background-color: #16202A;
 }
 
-.Pre{
+.NPre{
     position: absolute;
     top: 20px;
     left: 10px;
@@ -18,7 +18,7 @@
     cursor: pointer;
 }
 
-.divider{
+.Ndivider{
     position: absolute;
     left: 0px;
     right: 0;

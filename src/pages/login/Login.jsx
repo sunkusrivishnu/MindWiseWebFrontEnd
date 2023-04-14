@@ -2,6 +2,8 @@ import "./login.css";
 import React, { useState } from 'react'
 import limage from "../login/Mindwiselogo-1.png"
 import axios from 'axios';
+// import Patientslist from "../patientslist/Patientslist";
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 export default function Login() {
 
@@ -22,7 +24,6 @@ export default function Login() {
         console.log(response.data)
             if(response.data)
             {
-                // navigation.navigate('App');
                 alert('Success, Login successful');
             }
             else
@@ -71,7 +72,7 @@ export default function Login() {
             <div className="Input2">
 
                 <input 
-                    type="text"
+                    type="password"
                     value={Password}
                     onChange={handleInputChangePassword}
                     placeholder="Password"  
