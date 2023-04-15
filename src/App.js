@@ -11,8 +11,8 @@ function App()
   return (
     <>
       {/* <Patientslist/> */}
-      <Notifications/>
-      {/* <Login/> */}
+      {/* <Notifications/> */}
+      <Login/>
       {/* <Tasklist/> */}
     </>
     // <Router>

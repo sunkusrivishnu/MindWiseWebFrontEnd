@@ -35,6 +35,7 @@
     width: 300px;
     background-color: #2EEE9D;
     rotate: -26deg;
+    box-shadow: 0 2px 4px #2EEE9D;
 }
 
 .Square2 {
@@ -45,6 +46,7 @@
     width: 300px;
     background-color: #2EEE9D;
     rotate: 48deg;
+    box-shadow: 0 2px 4px #2EEE9D;
 }
 
 .Input1 {
