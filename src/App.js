@@ -19,12 +19,6 @@ function App()
   return (
 
     <AuthProvider>
-      {/* <Patientslist/> */}
-      {/* <Notifications/> */}
-      {/* { <Login/> } */}
-      {/* <Tasklist/> */}
-      {/* <Profile/> */}
-      {/* <Dashboard/> */}
       <Routes>
         <Route path="/" element={<Login />} />
 
