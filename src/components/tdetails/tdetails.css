@@ -1,0 +1,80 @@
+.Tdetailsmaincontainer{
+    position: fixed;
+    top: 140px;
+    left: 255px;
+    height: 100%;
+    width: 100%;
+    background-color:#16202A;
+}
+
+.Tdetname {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    flex: 15;
+    font-size: 19px;
+    color: #FFFDD0;
+}
+
+.Tdetnam {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    flex: 15;
+    font-size: 19px;
+    color: #2EEE9D;
+}
+
+.tdescrip {
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    flex: 15;
+    font-size: 19px;
+    color: #2EEE9D;
+}
+
+.tdescription {
+    position: absolute;
+    top: 60px;
+    left: 35px;
+    flex: 15;
+    font-size: 19px;
+    color: #FFFDD0;
+}
+
+.TdetailsType {
+    position: absolute;
+    top: 95px;
+    left: 35px;
+    flex: 15;
+    font-size: 19px;
+    color: #FFFDD0;
+}
+
+.Tdettype {
+    position: absolute;
+    top: 95px;
+    left: 95px;
+    flex: 15;
+    font-size: 19px;
+    color: #2EEE9D;
+}
+
+.TdetailsAns {
+    position: absolute;
+    top: 130px;
+    left: 35px;
+    flex: 15;
+    font-size: 19px;
+    color: #FFFDD0;
+}
+
+.Tdetans {
+    position: absolute;
+    top: 130px;
+    left: 120px;
+    flex: 15;
+    font-size: 19px;
+    color: #2EEE9D;
+}

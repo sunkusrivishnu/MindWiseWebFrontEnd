@@ -1,0 +1,45 @@
+.Ndetailsmaincontainer{
+    position: fixed;
+    top: 140px;
+    left: 255px;
+    height: 100%;
+    width: 100%;
+    background-color:#16202A;
+}
+
+.Ndetdescription {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    flex: 15;
+    font-size: 19px;
+    color: #FFFDD0;
+}
+
+.Ndetdescrip {
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    flex: 15;
+    font-size: 19px;
+    color: #2EEE9D;
+}
+
+.nactual {
+    position: absolute;
+    top: 60px;
+    left: 145px;
+    flex: 15;
+    font-size: 19px;
+    color: #2EEE9D;
+}
+
+.ndefault {
+    position: absolute;
+    top: 60px;
+    left: 35px;
+    flex: 15;
+    font-size: 19px;
+    color: #FFFDD0;
+}
+

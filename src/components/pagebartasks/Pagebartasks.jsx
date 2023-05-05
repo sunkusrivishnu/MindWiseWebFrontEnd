@@ -1,14 +1,20 @@
 import './pagebartasks.css';
 import React, { useState, useEffect } from 'react';
 import '@fortawesome/fontawesome-free/css/all.css';
+import { useNavigate } from 'react-router-dom';
 
 export default function Pagebartasks() {
+
+    const navigate = useNavigate();
+    const pdetails = JSON.parse(localStorage.getItem('currpatdet'));
+    const name = pdetails.name;
+
     
     return(
 
         <div className='Ptbarmaincontainer'>
             
-            <div className='PtPresentUsage1'>
+            <div className='PtPresentUsage1' onClick={()=>navigate('/patientslist')}>
                 <span className="PtPre">
                     Patients
                 </span>
@@ -20,9 +26,9 @@ export default function Pagebartasks() {
                 </span>
             </div>
 
-            <div className='PtPresentUsage3'>
+            <div className='PtPresentUsage3' onClick={()=>navigate(-1)}>
                 <span className="PtPre1">
-                    Patient-A
+                    {name}
                 </span>
             </div>
 

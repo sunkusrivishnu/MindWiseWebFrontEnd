@@ -6,7 +6,7 @@ export default function Pagebarnotifi() {
     
             <div className="NPresentUsage">
                 <span className="NPre">
-                    Notifications
+                    Logs
                 </span>
             </div>
 

@@ -1,0 +1,296 @@
+.Pdetailsmaincontainer{
+    position: fixed;
+    top: 140px;
+    left: 255px;
+    height: 100%;
+    width: 100%;
+    background-color:#16202A;
+}
+
+.Patientname {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    flex: 15;
+    font-size: 19px;
+    color: #FFFDD0;
+}
+
+.patientname {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    flex: 15;
+    font-size: 19px;
+    color: #2EEE9D;
+}
+
+.PYear {
+    position: absolute;
+    top: 60px;
+    left: 35px;
+    flex: 15;
+    font-size: 19px;
+    color: #FFFDD0;
+}
+
+.pyear {
+    position: absolute;
+    top: 60px;
+    left: 85px;
+    flex: 15;
+    font-size: 19px;
+    color: #2EEE9D;
+}
+
+.PGender {
+    position: absolute;
+    top: 95px;
+    left: 35px;
+    flex: 15;
+    font-size: 19px;
+    color: #FFFDD0;
+}
+
+.pgender {
+    position: absolute;
+    top: 95px;
+    left: 110px;
+    flex: 15;
+    font-size: 19px;
+    color: #2EEE9D;
+}
+
+.PStatus {
+    position: absolute;
+    top: 130px;
+    left: 35px;
+    flex: 15;
+    font-size: 19px;
+    color: #FFFDD0;
+}
+
+.pstatus {
+    position: absolute;
+    top: 130px;
+    left: 110px;
+    flex: 15;
+    font-size: 19px;
+    color: #2EEE9D;
+}
+
+.PSummary {
+    position: absolute;
+    top: 165px;
+    left: 35px;
+    flex: 15;
+    font-size: 19px;
+    color: #FFFDD0;
+}
+
+.psummary {
+    position: absolute;
+    top: 165px;
+    left: 130px;
+    flex: 15;
+    font-size: 19px;
+    color: #2EEE9D;
+}
+
+.PProgress {
+    position: absolute;
+    top: 165px;
+    left: 35px;
+    flex: 15;
+    font-size: 19px;
+    color: #FFFDD0;
+}
+
+.Pprogressbar{
+    position: absolute;
+    top: 170px;
+    left: 125px;
+    accent-color: #2EEE9D;
+}
+
+.inputforprogress {
+    position: absolute;
+    top: 350px;
+    left: 55px;
+}
+
+.numberoftasksdone {
+    position: absolute;
+    top: 165px;
+    left: 300px;
+    flex: 15;
+    font-size: 19px;
+    color: #FFFDD0;
+}
+
+.stbutton {
+    position:absolute;
+    top: 210px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 185px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.stbutton:hover {
+    background-color: #808080;
+}
+
+.chatbutton {
+    position:absolute;
+    top: 250px;
+    left:35px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 185px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.chatbutton:hover {
+    background-color: #808080;
+}
+
+.PatientNotifications {
+    position: absolute;
+    top: 25px;
+    left: 390px;
+    background-color: #2F4052;
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+.CustomisedNotifications {
+    position: absolute;
+    top: 25px;
+    left: 745px;
+    background-color: #2F4052;
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+.boxforcntext {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 30px;
+    width: 265px;
+    background-color: #16202A;
+    border-radius: 25px;
+}
+
+.Csntext {
+    position: absolute;
+    top: 14px;
+    left: 75px;
+    flex: 15;
+    font-size: 17px;
+    color: #FFFDD0;
+}
+
+.customisedtext {
+    position: absolute;
+    top: 50px;
+    left: 17px;
+}
+
+.rounded-textareainput {
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.sendnbutton {
+    position:absolute;
+    top: 260px;
+    left:85px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #16202A;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 125px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.sendnbutton:hover{
+    background-color: #808080;
+}
+
+
+.boxfornotifiheading {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 30px;
+    width: 265px;
+    background-color: #16202A;
+    border-radius: 25px;
+}
+
+.notifitextheading {
+    position: absolute;
+    top: 14px;
+    left: 50px;
+    flex: 15;
+    font-size: 17px;
+    color: #FFFDD0;
+}
+
+.listofnotificationssentbydoctor {
+    position: absolute;
+    top: 55px;
+    left: 25px;
+    height: 69%;
+    width: 85%;
+    background-color: #16202A;
+    border-radius: 25px;
+    overflow-y: scroll;
+}
+
+.displaynbutton {
+    position:relative;
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #2F4052;
+    color: #FFFDD0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 225px;
+    text-align: left;
+    transition: all 0.3s ease;
+    white-space: nowrap; /* allow text to wrap to the next line */
+    overflow: hidden; /* hide any text that overflows */
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 8px;
+    text-overflow: ellipsis;
+}
+
+.displaynbutton:hover {
+    background-color: #808080;
+}

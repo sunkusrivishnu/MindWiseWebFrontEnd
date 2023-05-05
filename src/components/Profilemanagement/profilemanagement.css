@@ -1,0 +1,168 @@
+.PManageMaincontainer {
+    position: fixed;
+    top: 8.75rem;
+    left: 15.9375rem;
+    height: 100%;
+    width: 100%;
+    background-color: #16202A;
+}
+
+.Name {
+    position: absolute;
+    top: 1.875rem;
+    left: 0.625rem;
+    flex: 15;
+    font-size: 1.1875rem;
+    margin-left: 1.4375rem;
+    color: #FFFDD0;
+}
+
+.name {
+    position: absolute;
+    top: 1.875rem;
+    left: 4.6875rem;
+    flex: 15;
+    font-size: 1.1875rem;
+    margin-left: 1.4375rem;
+    color: #2EEE9D;
+}
+
+.updatepassword {
+    position: absolute;
+    top: 4.6875rem;
+    left: 0.625rem;
+    flex: 15;
+    font-size: 1.0625rem;
+    margin-left: 1.4375rem;
+    color: #FFFDD0;
+}
+
+.Currentpassword {
+    position: absolute;
+    top: 115px;
+    left: 30px;
+}
+
+.Rounded-inputcp {
+    width: 205px;
+    line-height: 26px;
+    border-radius: 25px;
+    padding-left: 15px;
+    background-color: #2F4052;
+    border: none;
+    outline: none;
+    color: #FFFDD0;
+}
+
+.Newpassword {
+    position: absolute;
+    top: 155px;
+    left: 30px;
+}
+
+.Rounded-inputnp {
+    width: 205px;
+    line-height: 26px;
+    border-radius: 25px;
+    padding-left: 15px;
+    background-color: #2F4052;
+    border: none;
+    outline: none;
+    color: #FFFDD0;
+}
+
+.CVisibility {
+    position: relative;
+    left: 10px;
+    width: 21px;
+    height: 21px;
+    color: #FFFDD0;
+    background-color: #16202A;
+    border: none;
+    outline: none;
+    cursor: pointer; 
+}
+
+.NVisibility {
+    position: relative;
+    left: 10px;
+    width: 21px;
+    height: 21px;
+    color: #FFFDD0;
+    background-color: #16202A;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.Confirmnewpassword {
+    position: absolute;
+    top: 195px;
+    left: 30px;
+}
+
+.Rounded-inputcnp {
+    width: 205px;
+    line-height: 26px;
+    border-radius: 25px;
+    padding-left: 15px;
+    background-color: #2F4052;
+    border: none;
+    outline: none;
+    color: #FFFDD0;
+}
+
+.CNVisibility {
+    
+    position: relative;
+    left: 10px;
+    width: 21px;
+    height: 21px;
+    color: #FFFDD0;
+    background-color: #16202A;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.Changepassword {
+    position:absolute;
+    top: 15.3125rem;
+    left: 3.4375rem;
+    border-radius: 1.5625rem;
+    padding: 0.3125rem 1.875rem;
+    background-color: #2F4052;
+    color: #2EEE9D;
+    font-size: 0.875rem;
+    border: none;
+    cursor: pointer;
+    width: 10.9375rem;
+    line-height: 0.9375rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.Changepassword:hover {
+    background-color: #808080;
+}
+
+.deleteaccount {
+    position:absolute;
+    top: 28.125rem;
+    left: 1.875rem;
+    border-radius: 1.5625rem;
+    padding: 0.3125rem 1.875rem;
+    background-color: #2F4052;
+    color: #FF0000;
+    font-size: 0.875rem;
+    border: none;
+    cursor: pointer;
+    width: 10.9375rem;
+    line-height: 0.9375rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.deleteaccount:hover {
+    background-color: #808080;
+}

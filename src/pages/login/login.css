@@ -103,3 +103,15 @@
 .loginbutton:hover {
     background-color: #808080;
 }
+
+.PVisibility {
+    position: relative;
+    left: 10px;
+    width: 21px;
+    height: 21px;
+    color: #FFFDD0;
+    background-color: #16202A;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

@@ -7,10 +7,20 @@
     background-color: #16202A;
 }
 
-.n1{
-    position:absolute;
+.listofnotifications{
+    position: absolute;
     top: 45px;
-    left:35px;
+    left: 35px;
+    height: 69%;
+    width: 78%;
+    background-color: #16202A;
+    overflow-y: scroll;
+}
+
+.notification{
+    position:relative;
+    /* top: 45px;
+    left:35px; */
     border-radius: 25px;
     padding: 5px 30px;
     background-color: #2F4052;
@@ -21,10 +31,11 @@
     width: 550px;
     height: 45px;
     text-align: left;
+    margin-bottom: 21px;
     transition: all 0.3s ease;
 }
 
-.n1:hover {
+.notification:hover {
     background-color: #808080;
 }
 

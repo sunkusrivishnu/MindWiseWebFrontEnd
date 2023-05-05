@@ -48,14 +48,14 @@
 .PtPresentUsage4 {
     position: absolute;
     top: 26px;
-    left: 256px;
+    left: 245px;
     color: #FFFDD0;
 }
 
 .PtPre2 {
     position: absolute;
     top: 20px;
-    left: 255px;
+    left: 245px;
     flex: 15;
     font-size: 23px;
     margin-left: 23px;

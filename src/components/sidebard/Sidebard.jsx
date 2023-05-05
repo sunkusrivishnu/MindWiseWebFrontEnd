@@ -2,12 +2,23 @@ import "./sidebard.css";
 import React, { useState, useEffect } from 'react';
 import dimage from "../sidebar/Mindwiselogo-1.png";
 import '@fortawesome/fontawesome-free/css/all.css';
+import { useNavigate} from 'react-router-dom';
+import { useAuth } from "../../components/auth";
 
 export default function Sidebard() {
+
+    const navigate = useNavigate();
+    const auth = useAuth();
+
+    const handleLogout = () => {
+        auth.logout()
+        navigate('/')
+    }
+    
     return (
         <div className="Dbarmaincontainer">
 
-            <div classname="DMindWiseLogo">
+            <div classname="DMindWiseLogo" onClick={()=>navigate('/dashboard')}>
                 <img className="DImage" src={dimage} alt="Mindwise"/>
             </div>
 
@@ -16,31 +27,31 @@ export default function Sidebard() {
             </div>
 
             <div className="DRequiredButtons">
-                <button className="db1">
+                <button className="db1" onClick={()=>navigate('/dashboard')}>
                     <span className="icon">
                         <i className="fas fa-home"></i>
                     </span>
                     Dashboard
                 </button>
-                <button className="db2">
+                <button className="db2" onClick={()=>navigate('/patientslist')}>
                     <span className="icon">
-                        <i className="fas fa-users"></i>
+                        <i className="fas fa-hospital-user"></i>
                     </span>
                     Patients
                 </button>
-                <buttons className="db3">
+                <buttons className="db3" onClick={()=>navigate('/patientslogs')}>
                     <span className="icon">
                         <i className="fas fa-bell"></i>
                     </span>
-                    Notifications
+                    Patients' logs
                 </buttons>
-                <button className="db4">
+                <button className="db4" onClick={()=>navigate('/profile')}>
                     <span className="icon">
                         <i className="fas fa-user"></i>
                     </span>
                     Profile 
                 </button>
-                <button className="db5">
+                <button className="db5" onClick={handleLogout}>
                     <span className="icon">
                         <i className="fas fa-sign-out"></i>
                     </span>

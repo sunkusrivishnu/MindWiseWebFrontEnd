@@ -2,13 +2,24 @@ import "./login.css";
 import React, { useState } from 'react'
 import limage from "../login/Mindwiselogo-1.png"
 import axios from 'axios';
-// import Patientslist from "../patientslist/Patientslist";
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
- 
+import { useNavigate } from 'react-router-dom';
+import { useAuth } from "../../components/auth";
+import { useEffect } from "react";
+import { globalngorklink } from "../../components/global";
+// import bcrypt from 'bcryptjs';
+// import { createContext } from "react";
+
+// export const myContext = createContext();
+
 export default function Login() {
 
     const [Username, setUsername] = useState('');
     const [Password, setPassword] = useState('');
+    const auth = useAuth();
+    const [passwordType, setPasswordType] = useState("password");
+    // const salt = bcrypt.genSaltSync(0);
+    // const hash = bcrypt.hashSync(Password, salt);
+
 
     const handleInputChangeUsername = (event) => {
         setUsername(event.target.value);
@@ -18,13 +29,46 @@ export default function Login() {
         setPassword(event.target.value);
     }
 
-    const handleLogin = () => {
-        axios.post('http://localhost:8080/validate', {"username":Username, "role":"doc", "password" : Password}
-        ).then((response) => {
-        console.log(response.data)
+    const togglePassword = () => {
+
+        if(passwordType==="password")
+        {
+            setPasswordType("text")
+            return;
+        }
+        setPasswordType("password")
+    }
+
+    // useEffect(()=>{
+    //     getDoctorDetails();
+    // }, [])
+
+    const handleLogin = async() => {
+        axios.post(globalngorklink + '/validate', {"username":Username, "role":"doctor", "password" : Password})
+        .then((response) => {
+            console.log(response.data)
             if(response.data)
             {
-                alert('Success, Login successful');
+                axios.post(globalngorklink + "/signin", {"username":Username, "password": Password}
+                ).then((response1) => {
+                    localStorage.setItem("jwt token", response1.data["token"]);
+
+                })
+                
+                auth.login(Username);
+                navigate('dashboard');
+                const getDoctorDetails=async()=>{
+                    const userdetails = await axios.get(globalngorklink + "/getdoctorid", 
+                                        {
+                                            params: {username: Username}, 
+                                            headers:{ 
+                                                'Authorization': localStorage.getItem('jwt token'), 
+                                                'ngrok-skip-browser-warning':'google-chrome'
+                                            } 
+                                        });
+                    localStorage.setItem("userdetails", JSON.stringify(userdetails.data));
+                }
+                getDoctorDetails();
             }
             else
             {
@@ -34,7 +78,11 @@ export default function Login() {
             alert('Error', error.message);
             console.log(error.message)
             });
+
     }
+
+
+    const navigate = useNavigate();
 
     return (
 
@@ -72,12 +120,19 @@ export default function Login() {
             <div className="Input2">
 
                 <input 
-                    type="password"
+                    type={passwordType}
                     value={Password}
                     onChange={handleInputChangePassword}
                     placeholder="Password"  
                     className="Rounded-input2"
                 />
+
+                <button className='PVisibility' onClick={togglePassword}>
+                    {   passwordType==="password"? 
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                        :<i class="fa-solid fa-eye-slash"></i> 
+                    }
+                </button>
 
             </div>
             

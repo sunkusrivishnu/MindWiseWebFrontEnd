@@ -1,19 +1,19 @@
 .Tbarmaincontainer{
     position: fixed;
     top: 0;
-    left: 255px;
-    height: 75px;
+    left: 15.9375rem;
+    height: 4.6875rem;
     width: 100%;
     background-color: #16202A;
 }
 
 .Logo{
     position: absolute;
-    top: 15px;
-    left: 380px;
+    top: 1.0125rem;
+    left: 23.75rem;
     flex: 15;
-    font-size: 38px;
-    margin-left: 20px;
+    font-size: 2.375rem;
+    margin-left: 1.25rem;
     font-weight: bold;
     color: #2EEE9D;
     cursor: pointer;
@@ -21,25 +21,26 @@
 
 .UserIcon{
     position: absolute;
-    top: 30px;
-    left: 1000px;
+    top: 1.875rem;
+    left: 62.5rem;
     color: #FFFDD0;
+    cursor: pointer;
 }
 
 .UserName{
     position: absolute;
-    top: 30px;
-    left: 1025px;
-    color: #FFFDD0;
+    top: 1.875rem;
+    left: 64.0625rem;
+    color: #2EEE9D;
     font-size: large;
     cursor: pointer;
 }
 
 .line {
     position: absolute;
-    left: 0px;
+    left: 0rem;
     right: 0;
-    height: 1px;
+    height: 0.0625rem;
     background-color: #808080;
-    top: 74px; /* change this value to adjust the line position */
+    top: 4.625rem; /* change this value to adjust the line position */
   }

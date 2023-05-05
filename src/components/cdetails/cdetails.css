@@ -1,0 +1,139 @@
+.chatmaincontainer{
+    position: fixed;
+    top: 140px;
+    left: 255px;
+    height: 100%;
+    width: 100%;
+    background-color: #16202A;
+}
+
+.Userinfo{
+  position: relative;
+  top: 1rem;
+  left:5rem;
+  height: 40px;
+  width: 54rem;
+  background-color: #2F4052;
+  border-radius: 25px;
+
+}
+
+.UserIcon1{
+  position: relative;
+  top: 0.7rem;
+  left: 1.5rem;
+  color: #FFFDD0;
+  cursor: pointer;
+}
+
+.b1chat{
+  position:absolute;
+  top: 1.35rem;
+  left:53rem;
+  border-radius: 25px;
+  padding: 5px 30px;
+  background-color: #da0a0a;
+  color: #FFFDD0;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 85px;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.customisedtext1 {
+  position: absolute;
+  color:#da0a0a;
+  top: 28rem;
+  left: 5rem;
+}
+
+.rounded-textareainput {
+  border-radius: 25px;
+  padding: 10px;
+  top: 50rem;
+  padding-left: 15px;
+}
+
+textarea::placeholder{
+  color: aliceblue;
+
+}
+
+.send{
+  position:absolute;
+  top: 28.3rem;
+  left:52rem;
+  border-radius: 25px;
+  padding: 5px 30px;
+  background-color: #2F4052;
+  color: #2EEE9D;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 125px;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.send:hover {
+  background-color: #808080;
+}
+
+.Nameofpat {
+  position: absolute;
+  top: 8px;
+  left: 30px;
+  flex: 15;
+  font-size: 19px;
+  margin-left: 23px;
+  color: #2EEE9D;
+  cursor: pointer;
+}
+ 
+.chat-bubble-right{
+  background-color: #2EEE9D;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 12px;
+  margin: 5px;
+  /* width: 75%; */
+  /* min-width: 30%; */
+  max-width: 350px;
+  word-wrap: break-word;
+  margin-right: 50%;
+  margin-bottom: 8px;
+  /* white-space: nowrap; */
+}
+
+.chat-bubble-left{
+  background-color: #2EEE9D;
+  border-radius: 25px;
+  display: inline-block;
+  /* justify-content: flex-end; */
+  padding: 12px;
+  margin: 10px;
+  /* width: 75%; */
+  /* min-width: 10px; */
+  max-width: 350px;
+  word-wrap: break-word;
+  margin-left: 50%;
+  margin-bottom: 8px;
+  /* white-space: nowrap; */
+}
+
+.listofmessages {
+  position: absolute;
+  top: 65px;
+  left: 85px;
+  width: 57%;
+  height: 58%;
+  overflow-y: scroll;
+  text-align: left;
+}
+
+.outcontainer {
+  display: flex;
+  justify-content: flex-end;
+}
