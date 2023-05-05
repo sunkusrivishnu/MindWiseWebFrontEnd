@@ -40,13 +40,6 @@ function App()
         </Route>
 
         <Route path="profile" element={<RequrieAuth><Profile /></RequrieAuth>} />
-        {/* <Route path="patientdetails" element={<RequrieAuth><Patientdetails /></RequrieAuth>} /> */}
-
-        {/* <Route path="patientdetails" element={<RequrieAuth><Patientdetails /></RequrieAuth>}>
-            <Route path="suggesttask" element={<RequrieAuth><Tasklist /></RequrieAuth>} />
-          </Route> */}
-
-        {/* <Route path="*" element={<Notfound />} />    */}
         <Route path="patientslist/patientdetails/suggesttask" element={<RequrieAuth><Tasklist /></RequrieAuth>}/>
         <Route path="patientslist/patientdetails/notificationdetails" element={<RequrieAuth><Notificationdetails /></RequrieAuth>}/>
         <Route path="patientslist/patientdetails/suggesttask/taskdetails" element={<RequrieAuth><Taskdetails /></RequrieAuth>}/>

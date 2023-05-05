@@ -1,2 +1,2 @@
-export const globalngorklink = "https://4ed6-2a09-bac5-3b4b-1282-00-1d8-1fa.ngrok-free.app";
+export const globalngorklink = "https://4c89-2a09-bac5-3b4a-18be-00-277-3e.ngrok-free.app";
 // export const globalngorklink = "http://localhost:8080";
